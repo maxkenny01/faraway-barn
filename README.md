@@ -1,13 +1,13 @@
-# The Barn at Faraway Farm — website
+# Faraway Barn — website
 
-A small, fast, hand-coded static website for the Airbnb listing **The Barn at Faraway Farm**
+A small, fast, hand-coded static website for the Airbnb listing **Faraway Barn**
 (South Gloucestershire). It's a "showcase" site: every booking button points to the Airbnb
 listing, so all stays stay inside Airbnb's payments + AirCover protection.
 
 ## Files
 
 ```
-faraway-farm/
+faraway-barn/
 ├─ index.html        Home
 ├─ the-barn.html     The accommodation (gallery, amenities, floor plan)
 ├─ the-area.html     Things to do nearby (the main SEO page)
@@ -25,7 +25,7 @@ No build step, no dependencies. It's plain HTML/CSS — open `index.html` in a b
 Just double-click `index.html`, or for a more accurate preview run a tiny local server:
 
 ```bash
-# from inside the faraway-farm folder
+# from inside the faraway-barn folder
 python -m http.server 8080
 # then open http://localhost:8080
 ```
@@ -34,8 +34,8 @@ python -m http.server 8080
 
 These are placeholders — search/replace them across all 4 HTML files + sitemap/robots:
 
-1. **Domain** — every `https://www.farawayfarm.co.uk` → your real domain once you buy it.
-2. **Contact email** — `hello@farawayfarm.co.uk` → a real inbox.
+1. **Domain** — every `https://www.farawaybarn.co.uk` → your real domain once you buy it.
+2. **Contact email** — `hello@farawaybarn.co.uk` → a real inbox.
 3. **Airbnb link** — currently `https://www.airbnb.co.uk/rooms/1699802364503795984`. Confirm it's right.
 4. **Drive times on `the-area.html`** — these are *approximate*; sanity-check them against Google Maps.
 5. **`petsAllowed`** in the structured data (index.html) is set to `false`. Change to `true` if dogs are welcome.
@@ -53,7 +53,7 @@ Then point your domain's DNS at the host (each provides instructions).
 
 The website alone isn't enough. Two free, high-impact steps:
 
-1. **Set up a Google Business Profile** for "The Barn at Faraway Farm" (category: holiday/vacation
+1. **Set up a Google Business Profile** for "Faraway Barn" (category: holiday/vacation
    home rental). This is what puts you on Google Maps and in the local results.
 2. **Submit the sitemap** in Google Search Console (`https://search.google.com/search-console`)
    once the site is live, so Google indexes it quickly.
