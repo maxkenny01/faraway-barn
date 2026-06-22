@@ -34,7 +34,7 @@ python -m http.server 8080
 
 These are placeholders — search/replace them across all 4 HTML files + sitemap/robots:
 
-1. **Domain** — every `https://www.farawaybarn.co.uk` → your real domain once you buy it.
+1. **Domain** — every `https://farawaybarn.co.uk` → your real domain once you buy it.
 2. **Contact email** — `hello@farawaybarn.co.uk` → a real inbox.
 3. **Airbnb link** — currently `https://www.airbnb.co.uk/rooms/1699802364503795984`. Confirm it's right.
 4. **Drive times on `the-area.html`** — these are *approximate*; sanity-check them against Google Maps.
