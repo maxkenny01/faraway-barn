@@ -1,4 +1,28 @@
+# Faraway Barn — all crawlers welcome, including AI answer engines.
 User-agent: *
+Allow: /
+
+# Explicitly welcome major AI / answer-engine crawlers so the site
+# can be cited in AI search results.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://farawaybarn.co.uk/sitemap.xml
